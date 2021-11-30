@@ -1,0 +1,867 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+body {
+  font-family: var(--bs-body-font-family);
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.carousel {
+  z-index: 1000;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  background-color: #332d2d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header p {
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+header p a {
+  margin-right: 20px;
+  margin-left: auto;
+  color: white;
+}
+
+h1 {
+  height: 50px;
+  color: white;
+  font-size: 40px;
+  margin-top: 45px;
+  margin-left: 5px;
+  margin-bottom: 35px;
+  font-weight: 500;
+  font-weight: bold !important;
+}
+
+.h1Camisetas {
+  text-decoration: none;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+.scale-dos:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+nav {
+  height: 50px;
+  background-color: firebrick;
+}
+
+.submenu ul {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.submenu ul li {
+  margin-left: 50px;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.submenu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 1001;
+}
+
+.submenu ul li a:hover {
+  color: #332d2d;
+}
+
+.submenu ul ul {
+  position: absolute;
+  display: none;
+}
+
+.submenu ul ul li {
+  display: block;
+}
+
+.submenu ul ul li a:hover {
+  color: #eec2c9;
+}
+
+.submenu li:hover ul {
+  display: block;
+  background-color: firebrick;
+  color: black;
+  height: auto;
+  padding: 10px;
+  border: solid black 2px;
+  text-align: center;
+  z-index: 1001;
+}
+
+.mainQuienes {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.quienesSomos {
+  width: 50%;
+  height: 600px;
+  background-color: white;
+  border-right: solid firebrick 4px;
+}
+
+.conocenos {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 50px;
+  color: firebrick;
+}
+
+.titulos {
+  margin-left: 45px;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.nosDefine {
+  margin-top: 30px;
+  margin-left: 15px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.nosDefine li {
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.fundador {
+  width: 50%;
+  height: 600px;
+  background-color: white;
+  border-left: solid firebrick 4px;
+}
+
+.tituloFundador {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 50px;
+  color: firebrick;
+}
+
+.fotoCv {
+  margin-left: 31%;
+  margin-top: 20px;
+  width: 360px;
+  height: 260px;
+}
+
+.cv {
+  margin-top: 30px;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.nosDefineClub {
+  margin-top: 30px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.nosDefineClub ul li {
+  margin-left: 25px;
+}
+
+/*main productos*/
+/*Filtros*/
+.mainProductos {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.filtros {
+  width: 22%;
+  height: auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(firebrick), to(#332d2d));
+  background-image: linear-gradient(to bottom, firebrick, #332d2d);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.filtrosP {
+  font-size: 35px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.talles {
+  font-size: 27px;
+  color: white;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.talles ul li {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.talles ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.equipos {
+  font-size: 27px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.equipos ul li {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.equipos ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.remerasFutbol {
+  width: 85%;
+  background-color: white;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.remerasFutbol p {
+  font-size: 50px;
+  text-align: left;
+  color: black;
+  font-weight: bold;
+  margin-left: 150px;
+}
+
+.scale-uno:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.remerasFutbol1 a img {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 150px;
+  border: 2px solid black;
+}
+
+.remerasFutbol2 a img {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 150px;
+  border: 2px solid black;
+}
+
+.remerasFutbol3 a img {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 150px;
+  border: 2px solid black;
+}
+
+.pagination {
+  margin-top: 50px;
+  margin-left: 1075px;
+}
+
+.page-link {
+  color: #0d6efd;
+  color: firebrick !important;
+  font-weight: bold;
+}
+
+/*Main index*/
+.mainIndex {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "portada portada" "section1 section1" "section2 section2" "video1 video2" "section3 section3";
+}
+
+.portada {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: portada;
+  width: 100%;
+  height: auto;
+}
+
+.tamañoImg {
+  width: 500px;
+  height: 500px;
+}
+
+.section1 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: section1;
+  text-align: center;
+  width: 85%;
+  margin: 20px;
+  margin-top: 80px;
+  margin-left: 150px;
+}
+
+.section1 .camisetas1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: firebrick;
+  margin-bottom: 80px;
+}
+
+.section1 ul li {
+  display: inline;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.section1 ul li img {
+  width: 120px;
+  height: 120px;
+  margin-left: 30px;
+  margin-bottom: 100px;
+}
+
+.section2 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: section2;
+  border: solid black 1px;
+}
+
+.section2 a img {
+  width: 220px;
+  height: 220px;
+  margin: 6px;
+  border-left: solid black 1px;
+}
+
+.lasMasBuscadas {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.section3 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: section3;
+  font-size: 30px;
+  text-align: center;
+  width: 85%;
+  margin-left: 150px;
+}
+
+.section3 .beneficios {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.section3 ul li {
+  display: inline;
+  font-size: 25px;
+  font-weight: bold;
+  list-style-type: none;
+  margin-left: 70px;
+  color: firebrick;
+}
+
+.video1 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: video1;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.video1 video {
+  width: 600px;
+  height: 400px;
+}
+
+.video2 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: video2;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.video2 video {
+  width: 600px;
+  height: 400px;
+}
+
+.textoRaro {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  margin: 30px;
+  margin-bottom: 60px;
+}
+
+form {
+  font-size: 30px;
+  font-weight: bold;
+  color: firebrick;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  margin-left: 30px;
+}
+
+legend {
+  margin-bottom: 40px;
+}
+
+input {
+  font-size: 20px;
+}
+
+textarea {
+  font-size: 20px;
+}
+
+.sosCliente {
+  font-size: 30px;
+}
+
+.siNo {
+  font-size: 20px;
+}
+
+/*main redes-sociales*/
+.mainRedes-Sociales {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "parrafoR parrafoR" "iconosRedes iconosRedes";
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.parrafoR {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: parrafoR;
+  margin-bottom: 20px;
+}
+
+.parrafoR .seguinos {
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+
+.parrafoR .confianza {
+  font-size: 20px;
+}
+
+.iconosRedes {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: iconosRedes;
+  text-align: center;
+}
+
+.iconosRedes ul li {
+  display: inline;
+  list-style-type: none;
+}
+
+.iconosRedes ul li img {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.footer {
+  height: 150px;
+  background-color: #332d2d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+.institucional {
+  height: 30px;
+  font-size: 15px;
+  margin-right: auto;
+  color: white;
+  margin: 40px;
+  text-align: left;
+}
+
+.institucional ul {
+  margin-left: 18px;
+}
+
+.contacto {
+  height: 30px;
+  font-size: 15px;
+  color: white;
+  margin: 40px;
+}
+
+.contacto ul {
+  margin-left: 18px;
+}
+
+.copyRight {
+  font-size: 15px;
+  color: white;
+}
+
+.redesSociales {
+  font-size: 15px;
+  color: white;
+  margin-left: 60px;
+}
+
+.iconos ul li {
+  display: inline;
+  list-style-type: none;
+  list-style: none;
+  margin-left: 20px;
+}
+
+.twitter {
+  width: 60px;
+  height: 60px;
+}
+
+.facebook {
+  width: 38px;
+  height: 38px;
+  margin-bottom: 4px;
+}
+
+.instagram {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 6px;
+}
+
+/*Media seccion productos, Iphone 6, 7, 8 and iphone X*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  /*mainproductos*/
+  .remerasFutbol {
+    width: 65%;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 15px;
+    display: table-column;
+  }
+  .remerasFutbol p {
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: black;
+    font-weight: bold;
+    margin-left: 260px;
+    margin-top: 20px;
+  }
+  .remerasFutbol1 a img {
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 210px;
+    border: 2px solid black;
+  }
+  .remerasFutbol2 a img {
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 210px;
+    border: 2px solid black;
+  }
+  .remerasFutbol3 a img {
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 210px;
+    border: 2px solid black;
+  }
+  .filtros {
+    width: 40%;
+  }
+  .filtros p {
+    font-size: 45px;
+  }
+  .talles li a {
+    font-size: 35px;
+  }
+  .equipos li a {
+    font-size: 35px;
+  }
+  .pagination {
+    font-size: 35px;
+    margin-left: 1075px;
+    margin-left: 650px !important;
+  }
+  /*mainindex*/
+  .mainIndex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header {
+    width: 127%;
+  }
+  header p a {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 70px;
+    margin-bottom: 70px;
+  }
+  .footer {
+    width: 127%;
+  }
+  nav {
+    width: 127%;
+    height: 18rem;
+  }
+  .container {
+    margin-left: 160px;
+    margin-top: 30px;
+    max-width: 720px;
+    max-width: 1200px !important;
+  }
+  .submenu ul {
+    text-align: center;
+    display: block;
+  }
+  .submenu ul li {
+    width: 100%;
+    margin-left: -20px;
+    margin-bottom: 10px;
+    border-top: solid #332d2d 1px;
+  }
+  .submenu ul li a {
+    font-size: 40px;
+  }
+  .submenu ul ul li a {
+    display: none;
+  }
+  .section1 {
+    width: 100%;
+    margin: 20px;
+    margin-top: 80px;
+    margin-left: 120px;
+  }
+  .section1 .camisetas1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: firebrick;
+    margin-left: 50px;
+    margin-bottom: 120px;
+    text-align: center;
+  }
+  .section1 ul li img {
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-bottom: 100px;
+  }
+  .section2 {
+    width: 100%;
+    height: auto;
+    margin-left: 140px;
+    text-align: center;
+  }
+  .section2 a img {
+    width: 450px;
+    height: 450px;
+    margin: 15px;
+    border-left: none;
+  }
+  .lasMasBuscadas {
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 70px;
+  }
+  .section3 {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+  }
+  .section3 .beneficios {
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .section3 ul {
+    text-align: center;
+  }
+  .section3 ul li {
+    display: block;
+    font-size: 42px;
+    margin-left: 0%;
+    margin-right: 40px;
+    margin-top: 80px;
+  }
+  .video1 {
+    margin-left: 130px;
+  }
+  .video1 video {
+    width: 1000px;
+    height: 800px;
+  }
+  .video2 {
+    margin-left: 130px;
+  }
+  .video2 video {
+    width: 1000px;
+    height: 800px;
+  }
+  /*quienesomos?*/
+  .mainQuienes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .quienesSomos {
+    width: 127%;
+    height: auto;
+    border-right: none;
+    border-bottom: solid firebrick 2px;
+  }
+  .conocenos {
+    font-size: 65px;
+    font-weight: bold;
+  }
+  .titulos {
+    font-size: 55px;
+  }
+  .nosDefine {
+    font-size: 45px;
+  }
+  .fundador {
+    width: 127%;
+    height: auto;
+    border-left: none;
+    border-top: solid firebrick 2px;
+  }
+  .tituloFundador {
+    font-size: 65px;
+  }
+  .fotoCv {
+    width: 650px;
+    height: 400px;
+    margin-left: 280px;
+  }
+  .cv {
+    font-size: 45px;
+    margin-left: 50px;
+  }
+  .nosDefineClub {
+    font-size: 40px;
+  }
+  /*redesociales*/
+  .mainRedes-Sociales {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 40px;
+  }
+  .parrafoR .seguinos {
+    font-size: 55px;
+    text-align: center;
+    margin-left: 150px;
+  }
+  .parrafoR .confianza {
+    font-size: 40px;
+    margin-top: 35px;
+    text-align: center;
+    margin-left: 150px;
+  }
+  .iconosRedes {
+    margin-left: 120px;
+  }
+}
+/*# sourceMappingURL=primersass.css.map */
