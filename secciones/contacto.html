@@ -55,40 +55,58 @@
     <!--el menu-->
   </nav>
 
+  <p class="textoRaro">
+    Nos gusta tener contacto con nuestros clientes, suscribiendose te enviaremos toda la informacion sobre descuentos y sorteos!
+  </p>
+  <p class="equipoClub">Muchas gracias! - Equipo Club</p>
+<main class="grid-contacto">
+  
+<img class="fotoSection messiSection" src="https://images.ole.com.ar/2021/03/22/0_-2Wt_o5_720x0__1.jpg" alt="">
 
-<main>
+<form class="contacto2">
+  
+<!--nuevo contacto-->
+<p class="uniteRecibi"><strong>UNITE Y RECIBI UN 15% DE DESCUENTO </strong> </p>
 
+<div class="form-floating mb-3 container-fluid col-10 correoElect" >
+  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+  <label for="floatingInput">Correo Electronico</label>
+</div>
 
-<p class="textoRaro">
-  Nos gusta tener contacto con nuestro publico, por eso les pedimos responder esta pequeña encuesta o solamente poner sus datos para 
-  conocernos mejor.<br> Muchas gracias! - Equipo Club
-</p>
+<p class="fechaNacimiento">FECHA DE NACIMIENTO</p>
+<div class="cumple">
+  <input type="date" class>
+  <label for="date"></label>
+</div>
 
+<p class="sexo">SEXO</p>
 
-<form>
-  <fieldset>
-    <legend>TUS DATOS</legend>
-      
-      <h3 class="sosCliente"> Sos cliente de Club Camisetas?</h3>
-      <section class="siNo">
-      <div>Si</div>
-      <input type="radio" name="soscliente" value="Si"/>
-      <div>No</div>
-      <input type="radio" name="soscliente" value="No"/>
-      </section>
-      <label for="nombre">Nombre:</label>
-      <input type="text"name="nombre" placeholder="Facundo"/>
-      <label for="apellido">Apellido:</label>
-      <input type="text" name="apellido" placeholder="Rodriguez Villegas"/>
-      <label for="email"> Email: </label>
-      <input type="email" name="email" placeholder="fulanito@gmail.com"/>
-      <label for="Consulta">Consulta:</label><br>
-      <textarea name="Consulta" id="" cols="50" rows="15"placeholder="Envianos tu comentario"></textarea>
-      <input type="submit" value="Enviar"/>
-      <input type="reset" value="Restablecer"/>
-      <div>Acepto terminos y condiciones</div>
-      <input type="checkbox" value="1"/>
-  </fieldset>
+<section class="radioSexo">
+  <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+    <label class="form-check-label" for="inlineRadio1">Masculino</label>
+  </div>
+  <div class="form-check form-check-inline ">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+    <label class="form-check-label" for="inlineRadio2">Femenino</label>
+  </div>
+  <div class="form-check form-check-inline ">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" >
+    <label class="form-check-label" for="inlineRadio3">Prefiero no decirlo</label>
+  </div>
+</section>
+
+<div class="form-check radioRecibir">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    Me gustaria recibir noticias sobre productos y servicios de <strong>Club Camisetas</strong>
+  </label>
+</div>
+<div class="botonSuscrib">
+  <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+  <label class="btn btn-secondary" for="option1">SUSCRIBIRSE</label>
+</div>
+<p class="alHacer">Al hacer click en "Suscribirse", confirmas que has leido y aceptas el aviso de privacidad de Club Camisetas</p>
 </form>
 </main>
 

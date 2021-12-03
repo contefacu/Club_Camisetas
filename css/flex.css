@@ -7810,6 +7810,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+/*ARRANCA EL PROYECTO ACA*/
 * {
   padding: 0;
   margin: 0; }
@@ -8153,35 +8154,84 @@ nav {
     width: 600px;
     height: 400px; }
 
+/*seccion contacto*/
 .textoRaro {
+  font-size: 35px;
+  color: gray;
+  margin: 40px 30px 30px;
+  text-align: center; }
+
+.equipoClub {
+  font-size: 35px;
+  font-weight: bold;
+  color: gray;
+  margin-bottom: 140px;
+  text-align: center; }
+
+.grid-contacto {
+  display: grid;
+  grid-template-areas: "contacto2 fotoSection "  "contacto2 fotoSection"  "contacto2 fotoSection"; }
+  .grid-contacto .contacto2 {
+    grid-area: contacto2;
+    color: white;
+    background-color: #3b3636;
+    border: solid black 2px;
+    height: auto;
+    margin-left: 30px; }
+    .grid-contacto .contacto2 .fotoSection {
+      grid-area: fotoSection;
+      height: auto; }
+
+.messiSection {
+  margin-right: 20px; }
+
+.correoElect {
+  color: white;
+  color: #332d2d !important;
+  margin-top: 25px; }
+
+.uniteRecibi {
+  color: white;
+  font-size: 38px;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 18px; }
+
+.fechaNacimiento {
+  font-size: 28px;
+  font-size: 28px;
+  margin-top: 25px;
+  margin-left: 105px; }
+
+.cumple {
+  font-size: 26px;
+  margin-top: 25px;
+  margin-left: 105px; }
+
+.sexo {
+  font-size: 28px;
+  font-size: 28px;
+  margin-top: 25px;
+  margin-left: 105px; }
+
+.radioSexo {
   font-size: 25px;
-  font-weight: bold;
-  color: black;
-  margin: 30px;
-  margin-bottom: 60px; }
+  margin-top: 25px;
+  margin-left: 105px; }
 
-form {
-  font-size: 30px;
-  font-weight: bold;
-  color: firebrick;
-  display: flex;
-  height: auto;
-  margin-left: 30px; }
+.radioRecibir {
+  font-size: 25px;
+  margin-top: 25px;
+  margin-left: 105px; }
 
-legend {
-  margin-bottom: 40px; }
+.botonSuscrib {
+  margin-top: 35px;
+  text-align: center; }
 
-input {
-  font-size: 20px; }
-
-textarea {
-  font-size: 20px; }
-
-.sosCliente {
-  font-size: 30px; }
-
-.siNo {
-  font-size: 20px; }
+.alHacer {
+  font-size: 18px;
+  margin-top: 25px;
+  margin-left: 105px; }
 
 /*main redes-sociales*/
 .mainRedes-Sociales {
@@ -8460,4 +8510,14 @@ textarea {
     margin-left: 120px; }
   .suscripcion {
     width: 1150px;
-    background-color: firebrick; } }
+    background-color: firebrick; }
+  /*main contacto*/
+  .textoRaro {
+    margin-left: 240px; }
+  .equipoClub {
+    margin-left: 240px; }
+  .messiSection {
+    width: 600px;
+    height: 1200px; }
+  .contacto2 {
+    width: 600px; } }
