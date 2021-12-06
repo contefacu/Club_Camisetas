@@ -269,7 +269,7 @@ nav {
 	margin-left: 30px;
 	margin-top: 20px;
 	margin-right: 20px;
-	p {
+	.reme {
 		font-size: 40px;
 		text-align: left;
 		color: black;
@@ -290,8 +290,14 @@ nav {
 			margin-top: 50px;
 			margin-left: 150px;
 			border: 2px solid black;
+			
 		}
 	}
+}
+.precio {
+	width: 30px;
+	font-size: 25px;
+	margin-left: 150px;
 }
 .remerasFutbol2 {
 	a {
@@ -315,6 +321,7 @@ nav {
 		}
 	}
 }
+
 .pagination{
     margin-top: 50px;
     margin-left: 1075px;
