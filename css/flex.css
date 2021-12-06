@@ -8025,7 +8025,7 @@ nav {
   margin-top: 20px;
   margin-right: 20px; }
   .remerasFutbol p {
-    font-size: 50px;
+    font-size: 40px;
     text-align: left;
     color: black;
     font-weight: bold;
@@ -8156,13 +8156,13 @@ nav {
 
 /*seccion contacto*/
 .textoRaro {
-  font-size: 35px;
+  font-size: 28px;
   color: gray;
   margin: 40px 30px 30px;
   text-align: center; }
 
 .equipoClub {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: bold;
   color: gray;
   margin-bottom: 140px;
