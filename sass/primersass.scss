@@ -564,7 +564,8 @@ nav {
 .suscripcion{
 	grid-area: suscripcion;
 	margin-top: 25px;
-	width: ($anchobc * 3) + 140px;
+	width: 99%;
+	margin-right: 30px;
 	background-color: $primary;
 	p{
 		padding: 5px;

@@ -8266,7 +8266,8 @@ nav {
 .suscripcion {
   grid-area: suscripcion;
   margin-top: 25px;
-  width: 2090px;
+  width: 99%;
+  margin-right: 30px;
   background-color: firebrick; }
   .suscripcion p {
     padding: 5px;
