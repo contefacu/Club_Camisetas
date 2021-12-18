@@ -8316,18 +8316,18 @@ nav {
   margin-left: 20px; }
 
 .twitter {
-  width: 60px;
-  height: 60px; }
+  width: 45px;
+  height: 45px; }
 
 .facebook {
-  width: 38px;
-  height: 38px;
-  margin-bottom: 4px; }
+  width: 33px;
+  height: 30px;
+  margin-bottom: 2px; }
 
 .instagram {
-  width: 32px;
-  height: 32px;
-  margin-bottom: 6px; }
+  width: 27px;
+  height: 27px;
+  margin-bottom: 4px; }
 
 /*Media seccion productos, Iphone 6, 7, 8 and iphone X*/
 @media only screen and (min-device-width: 250px) and (max-device-width: 812px) {
