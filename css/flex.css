@@ -8526,4 +8526,22 @@ nav {
     height: 825px; }
   .grid-contacto .contacto2 {
     width: 600px;
-    height: 825px; } }
+    height: 825px; }
+  /*footer*/
+  .footer {
+    height: 200px;
+    margin-top: 30px; }
+  .institucional {
+    height: 40px;
+    font-size: 15px;
+    margin: 40px; }
+    .institucional ul {
+      font-size: 20px;
+      margin-left: 18px; }
+  .contacto {
+    height: 40px;
+    font-size: 15px;
+    margin: 40px; }
+    .contacto ul {
+      font-size: 20px;
+      margin-left: 18px; } }
